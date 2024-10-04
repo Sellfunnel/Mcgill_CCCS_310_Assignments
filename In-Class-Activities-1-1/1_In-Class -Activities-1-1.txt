@@ -1,0 +1,20 @@
+In-Class Activities 1-1
+Using a wireframe/mockup tool, design sketch layouts similar to attached images.
+
+These are smaller in-module exercises designed to give you a chance to work on what you have just learned or to answer some basic questions on what you've just learned and are important for the learning process. 
+
+ICAs can be very helpful in demonstrating your web page design skills.
+
+
+Although it is important to understand the concepts behind every technology, no amount of theory can improve on real-world experience. To this end, each class includes In-Class Activities (ICA) Projects that provide you with practice implementing technology skills in real-world situations. Each project is a standalone project, giving you a wide variety of topics and difficulty levels.
+
+• Using a wireframe tool, design sketch layouts similar to attached images:
+3_video_store_desktop_view
+8_video_store_mobile_view
+
+Save files as 3_video_store_desktop_view_yourname and 8_video_store_mobile_view_yourname
+
+
+In-Class Activities are for practice purposes only and are not part of any assignments.
+
+Note that you will continue to improve your design in future classes.

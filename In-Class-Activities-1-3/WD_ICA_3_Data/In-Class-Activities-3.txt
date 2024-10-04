@@ -1,0 +1,13 @@
+In-Class-Activities-3
+
+Design the Central Valley Farmers Market (central-valley.html) web page. 
+• Apply style to the central-valley.html web page (central-valley.css).
+• Make sure it looks close to the screenshot.
+
+
+These are smaller in-module exercises designed to give you a chance to work on what you have just learned or to answer some basic questions on what you've just learned and are important for the learning process.
+Class Activities Exercises can be very helpful in demonstrating your web page design skills.
+In-Class Activities are for practice purposes only and are not part of any assignments.
+
+
+Note. that you will continue to improve your design in future classes.

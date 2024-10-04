@@ -1,0 +1,81 @@
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff; /* Color for nav links */
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background: #555; /* Darker background on hover */
+  color: #fff; /* Text color stays white */
+}
+
+/* Section Styles */
+section {
+  margin: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative; /* Required for hover effects */
+  overflow: hidden; /* To contain the hover effect */
+}
+
+/* Section Hover Styles */
+section:hover {
+  background: #eee; /* Light gray on hover */
+}
+
+/* Recipe Link Styles */
+.recipe-link {
+  display: block;
+  background: #eee; /* Default background */
+  color: #333; /* Default text color */
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+.recipe-link:hover {
+  background: #555; /* Dark background on hover */
+  color: #fff; /* Text color changes to white */
+  transform: scale(1.05); /* Slight zoom-in effect */
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+}

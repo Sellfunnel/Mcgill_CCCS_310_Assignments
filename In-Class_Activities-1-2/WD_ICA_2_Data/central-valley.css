@@ -1,0 +1,110 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Outer Container Background */
+#outer-container {
+  background-color: #c0c0c0; /* Darker color for outer margins */
+  padding: 20px;
+}
+
+/* Container styling */
+#container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e0f7f7; /* Lighter blue color for the main content */
+  border: none;
+}
+
+/* Font and Text Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Updated font to Arial/Helvetica */
+  color: #000;
+}
+
+/* Header styling */
+#header {
+  padding: 20px;
+  background-color: #d4e5e5;
+}
+
+h1.bold-text {
+  font-weight: bold; /* Ensuring the main title is bold */
+  color: #1a5dba;
+  font-family: Arial, Helvetica, sans-serif; /* Font for title */
+}
+
+/* Navigation styling */
+#top-nav {
+  margin-bottom: 20px;
+}
+
+#top-nav a {
+  display: block;
+  margin: 5px 0;
+  color: #1a5dba;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif; /* Font for navigation */
+}
+
+#top-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styling */
+#main {
+  padding: 20px;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 20px;
+}
+
+/* Brown line styling */
+hr.brown-line {
+  border: none;
+  border-top: 2px solid #8b4513; /* Brown line */
+  margin: 20px 0;
+}
+
+/* Section headings */
+h2 {
+  font-size: 24px;
+  color: green;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif; /* Font for headings */
+  font-weight: bold; /* Ensuring headings are bold */
+}
+
+h3 {
+  font-size: 20px;
+  color: #b22222;
+  margin-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif; /* Font for subheadings */
+  font-weight: bold; /* Ensuring subheadings are bold */
+}
+
+/* Corrected Paragraph Styling - No Italics */
+p {
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif; /* Font for paragraph text */
+  font-style: normal; /* Remove italics from paragraph text */
+}
+
+/* Italic styling only for emphasized text */
+em {
+  font-style: italic;
+}
+
+/* Footer styling */
+#footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #d4e5e5;
+  margin-top: 20px;
+}

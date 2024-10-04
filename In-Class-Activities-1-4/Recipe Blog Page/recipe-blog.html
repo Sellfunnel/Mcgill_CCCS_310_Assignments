@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A collection of delicious and easy-to-follow recipes"
+    />
+    <title>Delicious Recipes Blog</title>
+    <link rel="stylesheet" href="/Recipe Blog Page/styles/styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Welcome to My Recipe Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#breakfast">Breakfast Recipes</a></li>
+          <li><a href="#lunch">Lunch Recipes</a></li>
+          <li><a href="#dinner">Dinner Recipes</a></li>
+          <li><a href="#desserts">Desserts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+      <!-- Breakfast Section -->
+      <section id="breakfast">
+        <h2>Breakfast Recipes</h2>
+        <article>
+          <h3>Garlic Bread</h3>
+          <img src="images/garlic-bread.jpg" alt="Garlic Bread" />
+          <p>
+            This easy-to-make garlic bread recipe is perfect as a breakfast or
+            snack option!
+          </p>
+          <p><strong>Ingredients:</strong> Bread, butter, garlic, parsley.</p>
+          <p>
+            <strong>Instructions:</strong> Spread butter and garlic on bread,
+            sprinkle parsley, and toast.
+          </p>
+          <form action="#" method="POST">
+            <label for="garlic-bread-comment">Leave a comment:</label><br />
+            <textarea
+              id="garlic-bread-comment"
+              name="garlic-bread-comment"
+              rows="4"
+              cols="50"
+            ></textarea
+            ><br />
+            <button type="submit">Submit</button>
+          </form>
+        </article>
+      </section>
+
+      <!-- Lunch Section -->
+      <section id="lunch">
+        <h2>Lunch Recipes</h2>
+        <article>
+          <h3>Spaghetti Bolognese</h3>
+          <img src="images/spaghetti.jpg" alt="Spaghetti Bolognese" />
+          <p>
+            A classic Italian dish perfect for a family lunch. Serve with
+            Parmesan cheese!
+          </p>
+          <p>
+            <strong>Ingredients:</strong> Spaghetti, ground beef, tomato sauce,
+            onions, garlic, herbs.
+          </p>
+          <p>
+            <strong>Instructions:</strong> Cook pasta, prepare sauce, and
+            combine. Serve hot!
+          </p>
+          <form action="#" method="POST">
+            <label for="spaghetti-comment">Leave a comment:</label><br />
+            <textarea
+              id="spaghetti-comment"
+              name="spaghetti-comment"
+              rows="4"
+              cols="50"
+            ></textarea
+            ><br />
+            <button type="submit">Submit</button>
+          </form>
+        </article>
+      </section>
+
+      <!-- Dinner Section -->
+      <section id="dinner">
+        <h2>Dinner Recipes</h2>
+        <article>
+          <h3>Grilled Salmon</h3>
+          <img src="images/salmon.jpg" alt="Grilled Salmon" />
+          <p>
+            A healthy and tasty dinner option. Best served with a side of
+            vegetables.
+          </p>
+          <p>
+            <strong>Ingredients:</strong> Salmon fillets, olive oil, lemon,
+            garlic, herbs.
+          </p>
+          <p>
+            <strong>Instructions:</strong> Marinate salmon, grill until cooked
+            through, and serve with lemon slices.
+          </p>
+          <form action="#" method="POST">
+            <label for="salmon-comment">Leave a comment:</label><br />
+            <textarea
+              id="salmon-comment"
+              name="salmon-comment"
+              rows="4"
+              cols="50"
+            ></textarea
+            ><br />
+            <button type="submit">Submit</button>
+          </form>
+        </article>
+      </section>
+
+      <!-- Desserts Section -->
+      <section id="desserts">
+        <h2>Dessert Recipes</h2>
+        <article>
+          <h3>Chocolate Cake</h3>
+          <img src="images/chocolate-cake.jpg" alt="Chocolate Cake" />
+          <p>
+            A rich and moist chocolate cake recipe that's perfect for dessert
+            lovers!
+          </p>
+          <p>
+            <strong>Ingredients:</strong> Flour, cocoa powder, sugar, eggs,
+            butter, chocolate.
+          </p>
+          <p>
+            <strong>Instructions:</strong> Mix ingredients, bake, and top with
+            melted chocolate or frosting.
+          </p>
+          <form action="#" method="POST">
+            <label for="cake-comment">Leave a comment:</label><br />
+            <textarea
+              id="cake-comment"
+              name="cake-comment"
+              rows="4"
+              cols="50"
+            ></textarea
+            ><br />
+            <button type="submit">Submit</button>
+          </form>
+        </article>
+      </section>
+    </main>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="POST">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" cols="50"></textarea
+        ><br />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 Delicious Recipes Blog. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
